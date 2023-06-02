@@ -10,5 +10,11 @@
     "clean-cache": "rm -rf node_modules & pkill node"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
 }
