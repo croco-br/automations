@@ -32,8 +32,7 @@ function search(arr, term) {
     console.log(steps)
     return -1; // Return -1 to indicate the term was not found in the array
 }
-
-const arr = generate(128)
+const arr = generate(100000000)
 
 const result = search(arr, 129)
 
